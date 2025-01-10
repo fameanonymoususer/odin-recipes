@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(17 24 39);
+}
+
+* {
+    color: rgb(209 213 219);
+}
+
+.recipe-link {
+    display: block;
+    margin: 7px 0;
+}
+
+h1 {
+    border: 3px solid rgb(209 213 219);
+    padding: 10px;
+}
+
+.recipe-link:hover {
+    color: rgb(153, 180, 221);
+}
+
+ul, ol {
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+p, ul, ol {
+    max-width: 600px; /* Adjust the value as needed */
+    margin: 0 auto;
+}
